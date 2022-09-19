@@ -41,8 +41,8 @@ jobs:
           context: .
           file: ./sample-packages/docker/Dockerfile
           push: true
-          #tags: ${{env.REGISTRY}}/${{env.IMAGE_NAME}}/myfile:v1.2
-          tags: ${{env.REGISTRY}}/muhabib1/myfile:v1.2
+          tags: ${{env.REGISTRY}}/${{env.IMAGE_NAME}}/myfile:v1.2
+          #tags: ${{env.REGISTRY}}/muhabib1/myfile:v1.2
           # GitHub Token used to authenticate against a repository for Git context
       #    github-token: ${{ github.token }}
 
